@@ -1,3 +1,4 @@
 mne
 moabb
 jupyter
+seaborn
