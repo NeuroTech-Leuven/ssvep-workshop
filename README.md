@@ -10,8 +10,7 @@ Goals:
 ## Installation
 
 For this workshop, you'll need a working python environment (version 3.8 or
-higher). Preferrably, make sure you have a python environment manager like
-conda or virtualenv installed and pip to fetch the necessary packages.
+higher). Preferrably, make sure you have a python environment manager like [Aconda](https://www.anaconda.com/products/distribution)  or virtualenv installed and pip to fetch the necessary packages.
 
 ### Using virtualenv+pip
 ```
