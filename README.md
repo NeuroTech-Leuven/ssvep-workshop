@@ -2,6 +2,7 @@
 Interactive SSVEP signal processing and classification workshop using MOABB and MNE.
 
 Goals:
+
     * Learn to work with EEG data in python using MOABB and MNE.
     * Implement an EEG preprocessing pipeline.
     * Get acquainted with state-of-the-art SSVEP classification algorithms.
