@@ -1,7 +1,30 @@
 # SSVEP Workshop
 Interactive SSVEP signal processing and classification workshop using MOABB and MNE.
 
-# Useful resources
+Goals:
+    * Learn to work with EEG data in python using MOABB and MNE.
+    * Implement an EEG preprocessing pipeline.
+    * Get acquainted with state-of-the-art SSVEP classification algorithms.
+
+## Installation
+
+For this workshop, you'll need a working python environment (version 3.8 or
+higher). Preferrably, make sure you have a python environment manager like
+conda or virtualenv installed and pip to fetch the necessary packages.
+
+### Using virtualenv+pip
+```
+virtualenv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### Using conda
+```
+conda env create --file requirements.txt
+```
+
+## Useful resources
 * MNE documentation: https://mne.tools/stable/index.html
 * MOABB documentation: https://neurotechx.github.io/moabb/index.html
 * pyRiemann documentation: https://pyriemann.readthedocs.io/en/latest/index.html
