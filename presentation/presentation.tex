@@ -12,7 +12,7 @@
 \usepackage{hyperref}
 \usepackage{mathtools}
 \usepackage{pgfplots}
-
+\usepackage{multicol}
 %% Commands
 \def\changemargin{\list{}{\rightmargin.2\linewidth\leftmargin.2\linewidth}\item[]}
 \let\endchangemargin=\endlist
@@ -183,16 +183,27 @@
 \frame{
 	\frametitle{Filtering}
 	\begin{changemargin}
-		\begin{itemize}
-			\item Single frequency filter
-			\item Band-pass filter
-			\item Band-stop filter
-			\item Notch filter
-			\item Filterbank, Time-frequency transforms, Wavelet transform,
-			      Multitaper filtering, \ldots
-		\end{itemize}
+		\begin{columns}[t]
+			\begin{column}{.5\linewidth}
+				Apply a single filter:
+				\begin{itemize}
+					\item Single frequency filter
+					\item Band-pass filter
+					\item Band-stop filter
+					\item Notch filter
+				\end{itemize}
+			\end{column}%
+			\begin{column}{.5\linewidth}
+				Apply a time-frequency transform:
+				\begin{itemize}
+					\item Filterbank
+					\item Wavelet transform,
+					\item Multitaper filtering
+					\item \ldots
+				\end{itemize}
+			\end{column}
+		\end{columns}
 	\end{changemargin}
-
 }
 
 
@@ -228,10 +239,10 @@
 	\begin{enumerate}
 		\item 2Hz, 5Hz, 8Hz, 12Hz
 		\item 13Hz, 17Hz, 21Hz
-		\item 14Hz, 18Hz, 26Hz
 		\item 20Hz, 30Hz, 40Hz, 50Hz
+		\item 31Hz, 47Hz, 53Hz, 67Hz, 71Hz
 		\item 12Hz, 14Hz, 18Hz, 23Hz
-		\item 6.66Hz, 7.50Hz, 8.57Hz, 10Hz, 12Hz,
+		\item 6.66Hz, 7.50Hz, 8.57Hz, 10.00Hz, 12.00Hz,
 		\item 10.13Hz, 11.47Hz, 12.67Hz
 	\end{enumerate}
 	\end{changemargin}
