@@ -19,13 +19,21 @@ virtualenv installed and pip to fetch the necessary packages.
 
 ### Using conda
 
-    conda env create ssvep_workshop_env --file requirements.txt
+    conda env create ssvep_workshop_env --file environment.yml
 
 ### Using virtualenv+pip
 
     virtualenv .venv
     source .venv/bin/activate
     pip install -r requirements.txt
+
+## Running the interactive notebooks
+
+After installing the requirements, execute the following:
+
+    jupyter notebook
+
+and open the interactive notebooks in you'r favorite web browser.
 
 ## Useful resources
 
