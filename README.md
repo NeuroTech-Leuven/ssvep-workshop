@@ -35,7 +35,7 @@ After installing the requirements, execute the following:
 
     jupyter notebook
 
-and open the interactive notebooks in you'r favorite web browser.
+and open the interactive notebooks in your favorite web browser.
 
 ## Useful resources
 
