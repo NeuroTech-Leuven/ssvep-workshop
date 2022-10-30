@@ -1,4 +1,4 @@
-**Adapted from https://github.com/sylvchev/moabb_minischool **
+*Adapted from https://github.com/sylvchev/moabb_minischool*
 
 # SSVEP Workshop
 
