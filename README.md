@@ -13,9 +13,10 @@ Goals:
 ## Installation
 
 For this workshop, you'll need a working python environment (version 3.8
-or higher). Preferrably, make sure you have a python environment manager
+or higher). Preferably, make sure you have a python environment manager
 like [Anaconda](https://www.anaconda.com/products/distribution) or
-virtualenv installed and pip to fetch the necessary packages.
+[virtualenv](https://pypi.org/project/virtualenv/) installed and
+[pip](https://pip.pypa.io/en/stable/) to fetch the necessary packages.
 
 ### Using conda
 
@@ -33,7 +34,7 @@ After installing the requirements, execute the following:
 
     jupyter notebook
 
-and open the interactive notebooks in you'r favorite web browser.
+and open the interactive notebooks in your favorite web browser.
 
 ## Useful resources
 
