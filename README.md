@@ -15,7 +15,7 @@ Goals:
 ## Installation
 
 For this workshop, you'll need a working python environment (version \>=
-3.8 and \<=3.10). Preferably, make sure you have a python environment
+3.8 and \<=3.9). Preferably, make sure you have a python environment
 manager like [Anaconda](https://www.anaconda.com/products/distribution)
 or [virtualenv](https://pypi.org/project/virtualenv/) installed and
 [pip](https://pip.pypa.io/en/stable/) to fetch the necessary packages.

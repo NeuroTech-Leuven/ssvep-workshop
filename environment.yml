@@ -1,6 +1,6 @@
 name: ssvep_workshop_env
 dependencies:
-  - python>=3.8<3.11
+  - python>=3.8<=9
   - anaconda
   - pip
   - pip:
