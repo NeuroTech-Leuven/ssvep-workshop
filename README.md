@@ -22,7 +22,7 @@ or [virtualenv](https://pypi.org/project/virtualenv/) installed and
 
 ### Using conda
 
-    conda env create ssvep_workshop_env --file environment.yml
+    conda create --name ssvep_workshop --file environment.yml
 
 ### Using virtualenv+pip
 
