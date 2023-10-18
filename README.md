@@ -23,6 +23,11 @@ or [virtualenv](https://pypi.org/project/virtualenv/) installed and
 
     conda create --name ssvep_workshop --file environment.yml
 
+### Using conda (alternative)
+    conda create -n ssvep_workshop python=3.9
+    conda activate ssvep_workshop 
+    pip install -r requirements.txt
+
 ### Using virtualenv+pip
 
     virtualenv .venv
